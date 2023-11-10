@@ -1,0 +1,30 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { NavbarComponent } from './comp/navbar/navbar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatIconModule } from '@angular/material/icon';
+import { BannerComponent } from './comp/banner/banner.component';
+import { LoginComponent } from './comp/login/login.component';
+import { CheckoutComponent } from './comp/checkout/checkout.component'
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    NavbarComponent,
+    BannerComponent,
+    LoginComponent,
+    CheckoutComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatIconModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }

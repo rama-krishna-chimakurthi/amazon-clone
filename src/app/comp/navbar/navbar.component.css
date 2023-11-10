@@ -1,0 +1,158 @@
+
+a{
+    text-decoration: none;
+}
+.nav-bar-top{
+    display: flex;
+    height: 60px;
+    background-color:#131921;
+    color: white;
+    align-items: center;
+}
+.logo>img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    object-fit: contain;
+    padding: 8px;
+}
+.delivery{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+.loc-icon{
+    padding-right: 8px;
+}
+.loc-icon > mat-icon{
+    font-size: 30px;
+}
+.delivery-top{
+    font-weight: 400;
+    font-size: 12px;
+    color: #cccccc;
+}
+.delivery-bottom{
+    font-size: 14px;
+    font-weight: 500;
+}
+.search-icon{
+    background-color: #febd69;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 40px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    flex: 1;
+}
+.search-bar > input{
+    height: 20px;
+    padding: 10px;
+    border: none;
+    width: 100%;;
+}
+.search-bar>input:focus{
+    outline: none;
+}
+.search-bar:focus-within {
+    outline: none;
+    box-shadow: 0px 0px 5px #febd69;
+    border:3px solid #febd69;
+}
+
+/* 
+.search-bar input[type=text]:focus{
+    border: 2px solid #febd69;
+}
+ */
+/* input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px #febd69;
+    border:3px solid #febd69;
+}
+input:focus:hover {
+    outline: none;
+    box-shadow: 0px 0px 5px #febd69;
+    border:3px solid #febd69;
+    border-radius:0;
+} */
+.signin{
+    padding: 10px;
+    color: #fffff1;
+}
+.RO{
+    color: #fffff1;
+    padding: 10px
+}
+.RO-top{
+    font-size: 12px;
+} 
+.signin-top{
+    font-size: 12px;
+}
+
+.signin-bottom{
+    display: flex;
+    align-items: center;
+
+}
+
+.cart{
+    display: flex;
+    width: 70px;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.cart-text{
+    font-size: 15px;
+}
+.cart-num{
+    font-size: 25px;
+}
+
+.nav-bar-bottom{
+    display: flex;
+    height: 40px;
+    background-color: #232f3e;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-bar-bottom > .all{
+    padding-left: 10px;
+    display: flex;
+    width: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buy-now{
+    width: 30%;
+}
+
+.buy-now>img{
+    height: 40px;
+    object-fit: contain;
+    float: right;
+}
+
+.border{
+    padding: 5px;
+    color: white;
+}
+
+.border:hover{
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 2px;
+}

@@ -1,0 +1,17 @@
+import { Component, NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { BannerComponent } from './comp/banner/banner.component';
+import { CheckoutComponent } from './comp/checkout/checkout.component';
+import { LoginComponent } from './comp/login/login.component';
+
+const routes: Routes = [
+  {path:'', component: BannerComponent},
+  {path:'login', component:LoginComponent},
+  {path:'checkout', component:CheckoutComponent}
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
